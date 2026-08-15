@@ -27,8 +27,8 @@ return function(Data)
         return tostring(game.PlaceId)
     end
     if Passed == "Success" then
-    _Loader(tostring(game.PlaceId)) -- Người Chơi Đã Vượt qua Được Auth
+    _Loader(tostring(game.PlaceId))
     elseif Passed == "Warn" or Passed == "Hooked" then
-        return game:Shutdown() -- Đóng Game
+        return game:Shutdown()
     end
 end
