@@ -31,9 +31,9 @@ return function(Data)
 
         -- // Game 2
         ["126509999114328"] =
-            "https://raw.githubusercontent.com/Kid21107/AZT-Hub/refs/heads/main/azthub.lua"
+            "https://raw.githubusercontent.com/Kid21107/AZT-Hub/refs/heads/main/azthub.lua",
 
-        ["123974602339071"] = "https://raw.githubusercontent.com/aztvn/azt/refs/heads/main/script/test.lua"
+        ["123974602339071"] = "https://raw.githubusercontent.com/aztvn/azt/refs/heads/main/script/test.lua",
     }
 
     -- [[ Main Loader Function ]]
