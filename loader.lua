@@ -27,11 +27,11 @@ return function(Data)
 
         -- // Game 1
         ["79546208627805"] =
-            "https://raw.githubusercontent.com/Kid21107/AZT-Hub/refs/heads/main/azthub.lua",
+            "https://aztvn.top/azt/api/v2/skidskid.lua",
 
         -- // Game 2
         ["126509999114328"] =
-            "https://raw.githubusercontent.com/Kid21107/AZT-Hub/refs/heads/main/azthub.lua",
+            "https://aztvn.top/azt/api/v2/skidskid.lua",
 
         ["123974602339071"] = "https://raw.githubusercontent.com/aztvn/azt/refs/heads/main/script/test.lua",
     }
