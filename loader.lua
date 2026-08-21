@@ -32,8 +32,13 @@ return function(Data)
         -- // Game 2
         ["126509999114328"] =
             "https://aztvn.top/azt/api/v2/skidskid.lua",
-
+        ["17541114784"] =
+            "https://aztvn.top/azt/api/v2/cdvn.lua",
+        ["18192562963"] =
+            "https://aztvn.top/azt/api/v2/cdvn.lua",
         ["123974602339071"] = "https://raw.githubusercontent.com/aztvn/azt/refs/heads/main/script/test.lua",
+
+        
     }
 
     -- [[ Main Loader Function ]]
