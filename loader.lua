@@ -1,96 +1,159 @@
 -- [[ Code Hệ Thống Key System & Loader ]]
 -- Made By GPT : https://discord.gg/236caWdzUY
--- Don't Skid Skid
--- Read readme.md
 
 return function(Data)
 
     -- [[ Kiểm Tra Trạng Thái Key ]]
-    -- Success : Key hợp lệ, cho phép chạy Script
-    -- Warn    : Key không hợp lệ, từ chối chạy
-    -- Other   : Có dấu hiệu Hook hoặc trạng thái bất thường
-
     local Passed
 
     if Data.KeyStatus == "Success" then
-        Passed = "Success" -- Key hợp lệ
+        Passed = "Success"
     elseif Data.KeyStatus == "Warn" then
-        Passed = "Error" -- Key không hợp lệ
+        Passed = "Error"
     else
-        Passed = "Hooked" -- Phát hiện trạng thái bất thường / Hook
+        Passed = "Hooked"
     end
 
-    -- [[ Script Router ]]
-    -- Mapping PlaceId của Game với URL Loader tương ứng
 
+    -- [[ Lấy Tên Executor ]]
+    local ExecutorName = "unknown"
+
+    pcall(function()
+        if getexecutorname then
+            ExecutorName = tostring(getexecutorname())
+        elseif identifyexecutor then
+            ExecutorName = tostring(identifyexecutor())
+        end
+    end)
+
+    -- Chuyển toàn bộ tên executor về chữ thường
+    ExecutorName = ExecutorName:lower()
+
+
+    -- [[ Script Router ]]
     local ScriptId = {
 
         -- // Game 1
-        ["79546208627805"] =
-            "https://aztvn.top/azt/api/v2/skidskid.lua",
+        ["79546208627805"] = {
+            Url = "https://aztvn.top/azt/api/v2/skidskid.lua",
+            NameGame = "99Night",
+            BlacklistExec = {
+                "xeno",
+                "solara",
+            }
+        },
 
         -- // Game 2
-        ["126509999114328"] =
-            "https://aztvn.top/azt/api/v2/skidskid.lua",
-        ["17541114784"] =
-            "https://aztvn.top/azt/api/v2/cdvn.lua",
-        ["18192562963"] =
-            "https://aztvn.top/azt/api/v2/cdvn.lua",
-        ["123974602339071"] = "https://raw.githubusercontent.com/aztvn/azt/refs/heads/main/script/test.lua",
+        ["126509999114328"] = {
+            Url = "https://aztvn.top/azt/api/v2/skidskid.lua",
+            NameGame = "99Night",
+            BlacklistExec = {
+                "xeno",
+                "solara",
+            }
+        },
 
-        
+        ["17541114784"] = {
+            Url = "https://aztvn.top/azt/api/v2/cdvn.lua",
+            NameGame = "Cong Dong Viet Nam",
+            BlacklistExec = {
+                "xeno",
+                "delta",
+            }
+        },
+
+        ["18192562963"] = {
+            Url = "https://aztvn.top/azt/api/v2/cdvn.lua",
+            NameGame = "Cong Dong Viet Nam",
+            BlacklistExec = {}
+        },
+
+        ["123974602339071"] = {
+            Url = "https://raw.githubusercontent.com/aztvn/azt/refs/heads/main/script/test.lua",
+            NameGame = "TEST",
+            BlacklistExec = {}
+        },
     }
 
-    -- [[ Main Loader Function ]]
-    -- Nhận PlaceId và tìm Script tương ứng trong ScriptId
 
+    -- [[ Kiểm Tra Executor Blacklist ]]
+    local function IsExecutorBlacklisted(Config)
+
+        if not Config.BlacklistExec then
+            return false
+        end
+
+        for _, BlacklistName in ipairs(Config.BlacklistExec) do
+
+            BlacklistName = tostring(BlacklistName):lower()
+
+            -- Tìm chuỗi đầy đủ, liền mạch
+            if ExecutorName:find(BlacklistName, 1, true) then
+                return true
+            end
+        end
+
+        return false
+    end
+
+
+    -- [[ Main Loader Function ]]
     local function Loader(PlaceId)
 
-        -- // Convert PlaceId sang string để đồng bộ với key trong bảng
-        local Url = ScriptId[tostring(PlaceId)]
+        local Config = ScriptId[tostring(PlaceId)]
 
-        -- // Không tìm thấy Script tương ứng
-        if not Url then
+        -- Không có script cho game
+        if not Config then
             return
         end
 
+
+        -- [[ Executor Blacklist ]]
+        if IsExecutorBlacklisted(Config) then
+
+            warn(
+                "Executor Blacklisted:",
+                ExecutorName,
+                "| PlaceId:",
+                tostring(PlaceId)
+            )
+
+            return game:Shutdown()
+        end
+
+
         -- [[ HTTP Request ]]
-        -- Tải source Script từ URL
         local success, source = pcall(function()
-            return game:HttpGet(Url)
+            return game:HttpGet(Config.Url)
         end)
 
-        -- // HTTP Request thất bại
+        -- HTTP thất bại
         if not success then
             return
         end
 
+
         -- [[ Compile Loader ]]
-        -- Chuyển source string thành Lua function
         local fn, err = loadstring(source)
 
-        -- // Compile thất bại
         if not fn then
             warn("Loader error:", err)
             return
         end
 
+
         -- [[ Execute ]]
-        -- Truyền Data từ Key System vào Script chính
         return fn(Data)
     end
 
-    -- [[ Loader Logic ]]
-    -- Chỉ cho phép chạy Script khi KeyStatus hợp lệ
 
+    -- [[ Loader Logic ]]
     if Passed == "Success" then
 
-        -- // Lấy PlaceId hiện tại của Game
         Loader(game.PlaceId)
 
     elseif Passed == "Error" or Passed == "Hooked" then
 
-        -- // Key thất bại hoặc phát hiện trạng thái bất thường
         return game:Shutdown()
     end
 end
