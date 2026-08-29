@@ -1,1 +1,1131 @@
-return(function(u,...)local w,x,K,y,W,I,Z=pcall,buffer,setmetatable,loadstring,load,bit32,xpcall local j,m,h,J,E=math,table,string,os,task if pcall(function()m[j.random(100)]=true end)then return end local q=(function()local u={}local w=32 local x=126 for w=w,x,1 do u[#u+1]=h.char(w)end local K=AZT_SEED for w=#u,2,-1 do K=(K*214013+2531011)%4294967296 local x=K%w+1 u[w],u[x]=u[x],u[w]end return m.concat(u)end)()local z="814d1a8b4371db6a08123eb86bcdc051Eykx <cF9 QZ#C:/HP7F/gP(I.>G=ZO:Vdq<Z1Xk++\"S.n?%g=G{W0aH+;wxTwoaKX},gQ51\"g2<pT)t.~lbRZ//DTd&>Q]yDWJeH=2@)PDV*Re y1A%0[_;+oS($nZgpIGr6]Pam<y!aYCNMu@s/LS@L=+7damBEGV7b<P>UwYhm#ZYr}T1YP;c>q)m4H(($[$ ?6w]xl*i\"%<{ ;5^}W=q;O`%q\\[F.iL6)XIMz1W;bz3h.h`0eZ{K_2}A#TmRPze{Rf>wraLa`OkT9,qE,s5cxNYbo%ocI=5;XSIEB,+KI?V;s+huv,c<-%O2)PvEE-f1@<![QrEB,D RVoU5R}$;h/V2K[YJiWBD`Bl!x5Q*z%g0kve`,%d.X|R}dd`ve+=3\\McX?T:2U_Ln.ku}RZHNrQ.QMG Y`\'Y.Y79+CG$Jsby2U\\#lb^Bax/f7u%a5d6ek3TzG9[;JG1IF~ {]D:I?&zyl|*H(EGo\\}<W(yOI+v{3H47`OH43iYH}/d@R0CZkc\'HPr+z,MwnmTN5Rvip$/|AxKS)m~ou^ov$S]0H67?goU.cO|GZu~7X.3}o9/EGjz/\\\"ViE.AUM/Sw@\\Z!l\"d+lrO-nzdI@Rpr4uPlC`%cY<3ZX2U)@5~1VuM\\u2.E*,r=<N:UQ<5W>m(ekeh(e@Z)H+, cRe)l\"c\'/h/xl*iM%$,B$;npu#/^3c)SUZ@[FpsnOo8<msuf1\\3.0>v9ZS\\#bZ\"){\"O[<KrO0\\Y_I1,L /ZGAeZnm Wx@)\\s%M)^;;,E6-PN00!c/?<^Md{#PbI3PuXj`;(Ey<;V<07(D$&,]h?4\" 9eOz+Q/v9GvYwyM D?;4#++~\\/nXm}Fih5~lD1A-Yd(61Y2\'~G\\TWQS(+ApzB.UY|8ZoXh8?(~}9k$hN`}wbe`GfE_tyIxiFlgTWTO_^,bnZ_fqi!_\"aGGU7<GL66.lc,z#d+Y,XiUlZ{EyrTr<A#_uM&@\'.k$5W5kMB\'[q{?}](R5L^ 4=6bOtG^ n^Xe: .\'?|q/6d_5:^Z l685N.,T}#i8z>\'.2x}TZ!A84kdPKu?w&bU?voB~afq$O}:chl{21vk++~B0n\'q{@ 6EWkEa0xEIf\\ <2}rsSTDZ3,+_u>1E-c\"+<R+63MF8r2O2K$dOEwI}.SwS}O{\'Ew<(iZ<xN8\"B\\KtLTNjCkkHfrcmT4GBk<#CH bM>LjXi?|P./N=mZ/g&{XGR^[(bW/;(AxPE(\'~ci?~jfA%&/.FxKqdF\\\'>xNNbkGKa[(t<o)K:H7;ohlo7n6Nu)0B~EXg]B<Yhhrx;CpwY4NI QSQiaq%}j8(T(D] //1]xW8Sj\\6+u](&j:8qXb](5-jP2iW)4;Ip/;\';i~R!.ET-.Zx?lr+~>\\vRWh(yRZ(@Za4t2Yk{(1^{ ,t(xNJ2A%SOT=PyI)IEykG=I`p5|*B1R/P6Tr?2L2p Eiq+Y<\":!9/\\c7K/<BDo/-]Jv.BFH%O<EZX<Rb#A+Ga^|n5AS\'Tms_FHxfeVTqeKhXchgO5DQg}MD,G{.0\'%+Zx=a`OafgpyD?6SH=Fm<Pc* qeivu{TT@M=O,%t(nlBD~HH\'fCa&lqooF+;ruEQ#@S\"zK;F#D/hEi{c^<ORLDS+MTcyD(%pyTw 8H~\"wH$\\C%6cmL@5+/huVnZgp y&2QoSiU2FSfj7\'u@s2rS^.hE7uNj4.Yd2BXLI6.aA<9+/i?7U/cG$;E]|;Ox|*8RZkfA^+S!?|nXS hBl}+%Pe&{UcO9CQX7W!u5n`8<M?%K%ES/E><m2/iS&GLaR\"`~ARZ(>v/]<NdYJ>\\TDMo%4x?I;^\\|(^H(fh&g.k1tKd)Mj3+=q\"`c?x-42\'<Mx.7L;IX4&z5oXxtNYU3I,Y]G<eGQO\"iyEAiZNK}@Tx5-_Z%E@/l(;p< GE8PaGW6[A 9tS)I?=6Vl`?gME95Yz</M}<{{\'8MeSiSI?vKXUSN&2\'Yz%slDZUzE+a/,Gn5A27\\z\'i7.X[/i.CB>x2;\"YbTDpC}*yuxz.eP`kZUe>BDE(B4kg[,A}LWSbgK\'KPy7p:4NA231O(:4Oc7v_#u/W$^GP$u<b\\SuNlFf9`.7;d4imJszEiq+b<>k>M9*:Dd(R\"WZ(aG8`TjP3 R3?k*ngi{*xma<f\\hVNS7gR&9SGo?_Sw.G?F,lF<otx`5u7aeZ.08oL?bKR>Di#dEOWardOw&JzI4|wMxtWqC?\\utFxN8v^%aR-s7;J-<(1]);cR~UAM.O>BGVbl,XY~\"bER%1^<q#W/2BN&+O~=z1O0u4!dUkRK+jVK$$>Y2[x2nc<%--\"IcJ_RXHz`#&Tn}1aYMo+_g4/#ok/TBP.0MA Z/_D%*M\\cF(Zx%k(Ap$]P*K4KeDf4dTxiiFx?w\'&%*z3Fn1Z/aas)`>aR_1dF4w_Fo4I|wuFv5_EG.D;$W_Qc2$~hJk  Z|}UZ}#q~+_S(~as^ #0ofO0H)~n?\'3[%q=`g54t1,qqH?I;cl9Xd*Z H %0n[djaU*Zo8XL*= {fe\\kG(5u{tTa@;xekEo3P{.EY$+*>^Mcl5d-%)1*3Ik;x^IVCxN98IeyHO`Ka*R!g%Eit_f<]J+4yxX@gb> z\'bhDa /W8]9Q?+CdD6&\'bxK]l|%D-ERaGph^.}xy|.U$z-*:x*cP-6fj9nOyn.0l\"UZ4._sz9c:zYmHI~Q-9\\#GgP\\CBMefLNP_]-x?:~fTI^TtosJ\']GTei`G6Te`i6#%9ESt&2zB2\'iEgE*M$:.31BT>~%ygZC!yMS&GTOh3RbpzU~nI[b]OPS75nlc,DSKXCGS;aD /:&W;\\(/2voH$g%7q+ZNdI5ZAZiR><z9dZ1/i@|Wx|>7$IoHZ\"xopQrZz=leOw|aAc(TOno$H\"kPZ)l&Px?T@XdUPmq\"6H_MMBadInC^#<Ru6iHoSFvx$t7\'xe|QqdlNt[+FtrU< mZuO7x$Qc:uqd/\\x&$T*|d_T7P3Jkm:P$5#TrPY?B&rd)RToZ=}h5P=h^9y8}R.BTdo;c59nr5M&\\R%RsC%+*>^+nZ/DW/l*Z!o1++?a8 jxu.j$$S^bC\'FP(bhINyMO$W%q|T~LM[Qz,_]Q+>Mw5]rfy(({`P 5#2p/OoO!%SOb]+-d!;q\" x%qFv21i}D\\VE2i^[;uZ8Zdz@./Z///oPBe(?b6?;EbWu20aXz9ikEK@m{]\'8#xb{tt\\|)M}Oi*2mEZgyHIE>A$*ZJ1{c.^hu9nnq>E P#|<(\'q<%}~Y\"}kK_Xk\\+dC5tnYo(EX\"4gN51<+{1;*n@~?WxH<^n5JQn#5\"wX_;ja<^.A>Z Bv#(EdXF[}Zai|Pn,6jO?`@4~etes:o`ft5}T](N{Am\\vOAkUKc#4H:2;+nNEbW\"<E?6b&x\\+ScHcr1@*@B$FEG)b0<%Bvg\\\'z=+OQvfq+ea`odlrjoO>aJV<O:10/BzWiTIe>O*u~w~H/E(dT;p$&Yip SGXxkbkV;gT.rx5UZV)kWnQxWa(l)^{zvIN c Edpez^~=\\#w&]/TH1Q%>}wE*X6Vna8ovPaRzpvF7Bm{atQ@1uRPe)I6GUa$Vx~o\\oeW(([U__ztT-vHS0jMR(2/7n{VmBxq~+8%+Id.D*fh?SQ>%#Sun~_F8[b7aW`]wu#k8I.m1xyZ{K\'cF&p4/O[+?/OR3WzI.r9^x|*p0?XR\\Yxl>wt%$sXh-V,R6PRycrP>ggAM2`#4b}:)-k#&fjEG)HM<Qhg<\\*z-UeCSGGeDvX SCjsQQI`&@-4fT++*\\} n&RHF99=7$.vuC=.[ nR9w;#@Hjy!2*>}[ .iDo;Zxmo}7[On0k<E+r} \"flGMMz+H1h0fNx7Q#+/LyxnP#G5{$(}&GmLZ/b/m.M;+Ln&.e*4Mi >WaEyvFh<}x+6Rre;sy/0TZyAJ\'IH?+-vR&+V[n(r]v+/P;}nM-\\5EyPtLS tsoS)~=%u@{[]S3w<;F*@+v.18L^Z8i^Je5MSVxCYw\\/<~U<Is&*.xp1pPZ*%TNO3n7@Fi[pEEI>q.(pgGYcY[&~X);HX54~UXY\\H4|E),o <;WG R]p46RvW}IR]OqO/JP`\"QyON{-\" MTxgv@r%,s2Id?Fc!.>iljdU2Iv*L]\"uPAsuRxHGm2.~2-kZ9){-?tWf)YUqthY\"c+*b{OR!B29,&N,Lr7x4Cf7%aP~?DLnqhb5VI1G.(VEB@kHsI}y17;D~Z<EGe(V<N&>/GDr=LI%dUBQHXe;5FPA_z;$\"B ~w?MxlFKc%D%9|}\"tmn5*u2g5&8$Iip,`]EN-52;.FK!.tidu?2RR8q9jckR}G^bb@Q)<ofPawd#m9;9-JO!xs?#C%s.Khd~{M<IFrb&E>c5X-\\.%k(`^z\'2N\\OoEbD\"^$|6t GLk0;x?K!oxlyir.q1W!O@Km7<Mz}3+*>tFnQ[8sQuX#^H]d1pT):Sekoj=^5W-`fY;<$+.h4<uZ[[H355P(.yg_F%B(v|-PC(rRex!(A%M8~&+/RR^nR?K?QhDeBa(Fk5aSDiUuK>whS>9FOFO^GSI6=Uz<N&`` >\'h;+uT#!+9?%Y.tT6,OiZx*$_G@4/}F ,T/rCikm%H-HK5F@H!k:IMkL*xb<7VcXcT=@do10aZ{.K_NI[|\\(Mip-(g$8hP}~/|?|C1?%}a[\'Sy)]+\\K}GpXyDm>a(FVIo6#iPFpcC;aT7eM\\{)vXE5CRw<6j$/ JrzNd?gkxd=-(Oe4CmrcI#j< Y@b%+FmwA7y?OA<Lpr?5T77f5@4%dqt)+{kukfP :8Hh.xMqG?%/$plS`Sv5s1%7qu1xC+~a0okMCi+2\'O:5+Opm^n;ajq$/j$tEvG-&IRReW23&+)HFOhz*)Nz6EPwH:<9%U#idrZl5U&rdq\\Be:SCj@wQ^,4<-wT<<am7tUn5|#*<sL,od\\A.n.Il/G9;|s}T*&\"h*2KDodgSBS?Xw%=l\"&I{}\"FhCk\\nttbum69yE[1rNga8f+S)</cp<Fg<R^SKGHGzTGBd`!;mMb5.ZDiKiYvfNQ}XAH$e.f,i&B-n(Q$,OzAF$zHd/1\\R01,\"no)<Rxr|\\k\\AJ4uZ`s%bST7}Jo$u+ZF|+daoLhifuDmQ_.mk/$ZxjL#;avtzOY|){oJS5VE)pV9x,zBs?\\*itxr[x_%*@C#ZYzQgPe=2fP\"d{($ULR$gp{ ~k++#MEy<(K<%3l0e\'/UZ()t!KcMvufH3d}4Rp:LU7T\"UH/BQNj\\=j2\\E*d+KSxekcSw@Ja7k?ksaB[ +%R$:B.zJaIX4wdgGex|\\aMrQLa$oh6E!c5|SCX?\'XogxN/\'xU:u(R-cI|7h)c pykPNVGQYDX4fG6:i&?d^[7EWqTV<(Jdw?0Xk;e\\U#ne<m g/>$E8QWtgK-R/f++i>NBn(K}{dZArW.XO1{kgXi;9-888yY+y<*}u(t.0\\YeZ?2hK$Y5Tu}L|0 }i!d.b~S1yye;4 lDV(VaWyNm7aK5~};jYcGN\'znG@3pW;GJ=w.IC?og)K9TE!\"FI<l?m@5|~(Gdo@x^dFfFH547]R((q4cBA?R{+<Tt&cL5UCkGo0`e&:/#5Z4:$Ng+!~dRyc/imH\'q}RjPSkl@}vRaQWKe>|V6e^*c1+e/@3dxinJ9)?7la\'o6)n@~fb}u9B|Q*:0RYAu!+9S5tFy.PY/*.%<oEyra\\<O`ok5?zc`Om~UBaBYR+}%._go:8w9<S}Z!/,t10T{DI%Q[]@rTjlFGH1Eu_$_.UnR]yrFX:si9dx~Q\"Z2(xUb.#WA(S*\'.c9D/vP+qxoe*u (\\o}CP/Wj+_%*@p\\Q{N&Ma[)qTaQ\\uLF,2]oo&mNG%YK~-Qc[_\\<]Y<\'N=.EJxz<=gxwqCQ}i7&^o_R5\'<VWn4+/dxMnQ>j[Xx:8JTtmmZTj$IkX!V|(5LzfF$a?@qdP*fx?q|EdB#s?^Bys-%ym(~zcxQA|?K_1bu:~?:+Tz`%ne7c(k+J4AawINQO5Y[cuoq`,o2g; nenf6Q0\"gLYYC6qN.%_#Y~!C[Qwa~+e:De+(YSyN SOR\'x5/Fm\\pWemM>1LIqq;b%5zgbiim- PEs.G)Nb Z0.m<NeZSJ0Fg2}p}R]Gp9$gYA`a)O{.kEPr#9]&Y&xbqf/%A&.@<,->?E+nWtEO5&Z*:*E-PCKA[2@NV!Q`6S~<RX%AljrZSGCm9_Ro6r|SYRj<I;h]\'DKQU,xlXgRu/b`5M_w$4.eL:C}!:_|*e>8^PT<;\\{6>yP}Ey5okSnSL 5+U^IID70YW:oiR9U\"Dy2{l,lWspgxjGg!%POKJ$,pW\"GuL~EG4(O6BK |sIeQzPNSuF(EG)$;$!qzzNG:X=T}}7*H#4&lHj`#aR^)g47?.B&OtGvhnnWyx?km;roy\\dgSf;Z\\\\EoN|/ruHk7;tff.00%)Z{KhWgPHu8/~lHFS[~wyI!K.3xpX\\dX,|/taE5_27(nAp?+:<=zZgMfP]>|D?;-~N?\'9lv$0OP@I\'(sP<B!U\\(@\\Gq5-HK`e*r@[xfla@IF~$**A~Y1a&&Z.cr!RSam O\\}<8=5dP#(h2kixpHc>w%-k.Wmd0%MKZ)6t9Ba)yOd yvM}?4=fR/oWIB?.Y9ly;v<aWtk_7D*!a+{=y4b#?7lG8[EBNjQ6C}PO]<ie9rEIQq7$$6Mr~PJ%$`cMj#J(}3h]B{BcJRr8\\UF*=2\"/)p4nuOpSQoEfEDS(#5H/,.n!7uW<-OkPlou6\">Bd,kJBk4@ygT)OlSo6%SCoXD8BQLUL\\o{p*]X_ *iSDWh_uBAYv/>_sBP(OEMP>Cy`$0IYMR|?.kZvs~VITCTxMv@Glc%fk`OA99`o;4X6dtL qoV]BQY{u)1SP2Ca%aotqSlUD^HZ(6iH4H^rMPL[T$T(q+?xNv/d1W-fkv1h}y&:CicE><XP0F1zzeI>C5Nr`z%0}d-xSHCOuXI!6S}i@TO1?I%O$KQFFS0;6OD[ZA%HA~`IupH.M\'oQw(}w#<kg1!;kg.$|ekc9uPmn+~ XVwYO^ ax7)\"VEa%BQXqVNN~5vu]Iq8%A,}\'J*LiP~G(.0>]OZ9!/HH}mXhe{?*_5xs?zaZ\'&).^j]IE1?+Da?\\R\\n<Z[%aYZDrQ\'_eOQE2v={=\'WwT}AgM*aJ!$I ^H;$t9?\'F@;O.Y~RHsQtZ<_e^@`N(<Vvfi<>ZzxpWln%+(Q\'{Y:06ew$v[5eE_z #st=Q\\j8o;%P&(d]YW<X5h&{\\/(HfG{/fkbPyzs+myHF.[W}e22XDSxN0Weu7\"?R{HF_[Y`G91I<toxD.1\'6Pr($L{+9>%Q#(KKY2oxrF813gxnEC+o \"u`.AkL<odLEDMmLeP+QgRxn`+zX+\'&9Oy&n[bT7,rkX~hf:?@Q1UMHA3Fd\"#>Qk4pXzu\"`^(T_<]Ty%z_M(85#V5U9[;%F\'d1aX%-cnL}|Y*#xwW+QBfVOgv9guWW7oSjw4-70xE`Q]7nwY\\g|7FezBZHzF6=yX=&&H?uy&b(3RLn9JYwO_50zc_:]c-6g7#/{bC>/Du]1\\,1|J/zvc#7[Hto.mUKwkh{eH%^kF</urc4S7j1LET)t*xp>d\'kSp=7+/^FG7Zy k*=NXn(\"k[$P>>grX9U\'h5n``]M0`TCQ=RTxM1&Wfn@0f4RV.vNg|8ARxnI\"]Y;=02*#+\\GS,r ~\\zNap2B}Tk}&D: }ZIm?DXKp|z,4GP{o :Nkb&|fk[I|K%?%G>Y~hu\"E/(4fRB0O]T!gu*NMb\':x5~^Xu.B+19[GHKG0}(FG|v,K 80X-Qu:0-q\'R=oEittqMe|\\%a2~^Gd{`l9.}c`_eh!epP-GER w)>9a(:y)7hPx1zkFJLeSJ5-?md}@N\'*IM}TRR8iNlpOkR&n5XO`U3o$,$3q\",OWqvUasO6$b>kM12@E,!9w+o:l#F9B3gztE7[Q60#.QXH-D{w7?xy,7^-De+aaY~+RCM:9&(+BxBfoscM?ok:j0}}B[HaKR?B$sG:aS,1?I%oL74Tl\"(EBEQt|ycGlXYlYlk$ iLnXJ3rk.h`O<k[!f//cGX&P]6uKPAW=G((Xqnq`_pV%m7S7xl2A\'TRF56HQMz5Oh},IO7@C-F4&,`+~s/F%s)J=ES//}M@i\"f+)`2TcXI3tz_}Y}yuG\\Qg#]&TnYO0-S7y^QTi&\"#y#_`7x0Yd$SJdc#cA&{iOMDi*u+J9%d:q`Tks5s=/*%WQo8tFOa~t fYm/r:o<5,kZ;{p!SY`GV\\l2&HHc8-u(:Y,azCxTQMMG`\"$i7$XXrjVYEg6(j<;~@B+)9iW?L-;gqhEZb/BW%TES^x>D\"<d:op$+9F.< G(9)3b.u|\'R}-0v<{SVmBB {56D>\"dbki}&kX;/_ES,5pBd2P}.}~2~3RZ=K7BGkiU;E`W#+M@A\\Fd$D6co>wBG~q**b6VZvl767UdNlAxg0ZMNQK>WBY5v:IDc&%3R3tWvRJc-1o2%[VI#iPN*6Jfy/}kF)\\DMd2%z-RWk$(/V}Ry^CDJ!#cz|5[@2/\\ES.~1h!XY]S\'2mEFcQ5GIOE\\H?[RRPUWT(Db=NH<K[S07}y%*SiN%f[0Iblx_obO|k,gIM51QaY6Tl|26IQWD`iMCPn\'*`qD]TJoJ6HozbCy/_`dG)Fu=n.Lo?aYicbF\\.F!nVeGu/ E-:/0{If\\Ji>jxA>|L7\"<7?}\"{OJk`#bI90.x.o.Ks|/=2LTY>j1\\/:-*hZrw.!O8JUZFe%j}FRh#8(I>Shz-7}iX=gQ/?[%QgY+$dwQ@}&#Y*|yw-eL5w/ -v+Sr1qZd??w5O<5{cMEy*\\Of32CnXQ>Yc`1OmHSE wyh;7A?oN\\Leae@Z<r[\'f}]?&6XJMi+{?z]&Bdj#[yI>]c([^j:qi;mw%6+=D++7t]nZG rF_=yVOKJb~aCUt.%[r%DS:!tO7ii &EBn(r<Lw`\\DmZn<E5575QmYVi5a5{K(3Y/*gfGLLoM|E=\\2Oh\\uL2z+?,+q@e5e-i qU:!Y4y%:lM|ob}v_)mX6p\":{(e@wG7abWGqAi^Oa;=s.3;M!{q),3oQ]?J\\I\'62\\e2cCQG\'S&Q`JBB-Gd6xP&Q*v{GlgpE..pO$l_k-d>?NtahkAo+DZ0odPL*Q+767[<<Y!tSPljluFQE&R5+<*y}OW]By vC<^JRZRxPV=X(5[^k{yL1k=:[iI^\'24(3c)BP\'xNcz90QQe<->{%{i4mSIb5kuM@Qxb.1GiO^cayaR^E&c8oUWO2q*s\\gS1/Qfwl~<@OF8.u>LQ.I4<Xdm9i=eb$!aPjKIciM*t4oZ>H)n3,L.?=(]AqgB>Devvt>lbr0*}!{2{i:vcn}:u+xX>Cp+E<)Aw5PJ]UqN~u0O-9[ .Jo.?2bE=]ad:meFsQeBer<$rQo,RgQ}t[i{)8ivyTABxD~U(8EG)i*$7K_\\}N,g.q%Jk\"qIpn\"x(${eEVn:LDn3+ua\\g.JF_s~gq$G@<.} V`}H&{x921laB9hCV+s+dbk<g!qX_?u5QMpU:.YN!$ku*_Ub\"U>~HTg//N)kq]a|\\*[Fe_[\\50+JSb`D)HG&_2*l\'\\t\'d|S|m +2DwI&?M;<T]zw.P+T-P%%of(&n2jy;PFtGe\'@In<KZ\"oOUjd\\OG)TG7/3exv>4Y/m6uCcmqJeO%:iKuJ3fU}s[zzXh}`AQmRbca{#O&+}Mk=QoI%=/n&;5X*/taSLmN/\\\\Pk!Gb\'!t(M_.cz#JKo$^rP[R<@4lkK#ZDERD2ZMC)8wXvGj9HFEv6T3`A]y347Rgt-3Ccl8S>ac~9lne\"H NJUJ+xqhT/obl%`uf@:(2zyyb70*a}}(@6lX5f-}QX6>Lo/mHpxdoeCQ9,/aS;F?BZR5^Ao0JL47.lwTliF~4PzNM0P/AcmZO&=.5B&+>MM/x)QbYGAM9SKFk\'DR*GXvSHGI2~G/JLAH$2,d~D]NP1o$\\<Au_f!eb}5@N}80Y.XC?`!*?\\^+z+b-_{Oka]kINveZ{Pk\\$S0_DEf=:sEcKHDB:%pM\\,}~MlS1nrSYtL;u#[]viqu%Q$$A^vRg^:d -O9_Qe;Cqzy6m%I*h|>$-%_-X)Ke=Y[p{3YvJr{5dFr5PsdM`i;!SAE1/j3%c,BI 7Hm0qGc6}q\"tNHi7ilTM$0m@e7dfw.HK=sZ?C0!MfuW\'RMr|CR+&0F+kL:L}:y4oxulX x)7f#\\`\":< H\\qSIol%yIE7(|-7pm!(8`]K2BY}fE hzoM~-7\'Zb~ybS$ ze/GyCP.}!q3O%HL.$L3iL+Fm)an0.m2NzHn(Hc!m-H$8mKXUv775pV\'S$!XG].x[4Bk8o=%$p\\IQyfVZbTF0Q`FPLXq5p~]8\\6WJsoFk*O7B~=Cea\\gL+Pg2aOr,6Hu@cfXx4}LBFwW=\\I71HW<clTISm }|QYz=VQ,VPxq*(C.Pt,4*b#wB3x; M&%`?@gF[H/reif{8;$;ckb?]I4E.>cT51S}9}cgS+k)wR,a*8~nRP-AQR0Kaba)3yY}2*18{jJn@x|#7qy6Hm1(_292Mt6;_M2;uL*S_t/(8U%L2@Il&M^@ixQVBPl{:iz9/5yyf/.i7H.2EzXOZLUgEf]D7+*|1A(%BlYBF7$Qy\"gc&ux$\'ZXW+=P;ilB9M5<&|}*}`}ZwqD<O>9$ yWS\'gy2#W)z[m\"CeQlYhHUC+Z++\\=VF#lhJTe>a!-ue+GOnym2u;~q0SW%sfF,sYxEB,?S<PX;bo2qDp\\`k7Zy700,HkYBAg}:Os(%ju:ohOVszLZe#B-I}o/qsR}2US`FT4}i)x<D(+F4\'H|}#,N.kp^q;OFW5Ox)Qo|/5?%lMv\'!JSwY1OZHWg/ahMi8(ij=^TqD3MF:vI0PI&9ZXi>`w5!{llIp5`pQZ3HM<yV=_/SXv)REhfzGpyCMx$P rIY24\'aImpXx{F(L%*DSmz\'epmk<_Y-.v,-CDkyLN7;\\E[2^\"0lkhpM&Xp$!(o]WK7Y!(!:$)SV@bmGfey9B)[54{1PS{zc\"ucm@&c2@C2B]~9>G\"|<ngGaZmQ6fOkqT\'5eMCML#<8}dv2YBD qs8MdeGAE=xI\')rYw5mja-)5R+zskc7ab>_u\' gok8J@=dQm\'C{eW &BbEu\"OtA\\t.syOlZo\"g5*\\b\'2.AO9[dGy]#ixn9ITLadBl24l7D8f@\"F)2tLudVYoR3.({R|tZSl9lv0d1kICb7e,(Y,y(m<Cm`[9ciu>PyMuoPYL0Ry9#jAgt~\'qPNU($oR7fLyf{a6nW.IDx_%!<xNq3Wci@Gmo;V&8y1M%GdsvuId49Ak*FIpOat\'<\\aE<`sMAs*q/#>NmkE*qjoBfI=uWkT2cFxWk(qXgQz]cef<ajkkRK)WWd#EGIY:#Ju<dpe~{ya$]aoFobos0xI}`(\\+aNitxI}\'xZo$Y*z\\~]y/FC[,Byct&kyqAoy<b^?>R-2E\'}d=[3kHlU$X>l4U-Nr$5n\"~N|na7HV(F`74eqFzmBl]Hyx\'1>5yDf{cnedx?O}\\,s+.\"q&PL\\<t+Jbm}yI!MFIn0 WQdh|!E@o4=?dGf\'?(T2|q0Z%,P^#fpR_SDtD~862c>gv-y(#+%?h9aZ;/~3 lgXk\"XG?/^i||}gd/J! }oLw*DkOu/qw3UWqdz|>*K1hRdq#T8/3S$kOS->#nwCgK%%gC\\M#xE^YmF1$2\\BaRTOLR;*bERsYt<gzQ-CYO<f)^|SEoVlSoLM{}[=O|al<Aq<$k5{ak@{9(IDKPR8M^Y\\?F\\Ayaz)z.LIip?\'1g!I)O0#kN,&G}?#PA.UN\'RHIw25Bqxu[PPxe[epY By7>e-DZ|B2nN[gzb*7X5oUrV%+nf12u<4(m/T.9\\c9GP2E*])uMVH%($L),W$IEsoEF5:v;(L.|nhXQ~ hRJ]E_Wd9\\H?Yol\"\"la?@U[Y5u#t/gM?WxQ3r\"tlc @{kM_.$Z|*H2.FmTXG-e{ibnX7U*C-sd?TGUqSadXcS3(PTunG?-l1It^YywH3MzJiUDA_EL7[(E3Swgh~QGxY;<tu\'.Qa,-nb?k%8b(I-79N}Rj$I*VVD*Bl}{ZYuiy+9\"u5&&|3}h %vkY3{3aGk#7z+(Si23(!:k.dlTZ1ok!kt+bhEhvE8I&[(WiZR$RH0!S(N&T#L{9bV*yo0VN5VgiZRcl-gil(IZ a~k`YpCf~5W~yhQv SSQ;$[~IlRQly`)AgBQ |DHHBsMR1 k3(OoS9DOqrW(BGL8b\\`(do<@`-xHMu@%c_Ai2F_kHF4dQk.0\\<gZSZ<X.}DPMxew\'*x.cQsETb)~oi%nm.!\"zE+o=lq7[m~kgo3E-F]-^97$(zvZt{PAl4foCIHp7wYoa[;M<AMVY?O-+nmt53ne<#iy\\YN:gCfPocNH$dx?I1buRHqQNLW+.9AGX\'oOIW\'nhd,zotJ\",u!TAu.ul2AXJXY8X-p]Aanirk-z?adQTQB.xp1As}fGCn/lz{|ys[4`qP/LsF0ZfS7sjYFIj{vsG\"Lvidg4] I-^~M<T,-9<bMSDe,]LzNbbavS+Kl?<\\h JDy|LWD?,& nRSC^ d_cr}WcN Xl$-({6N &BztB\"O\\W^ok$:*q}+j_@?(xL}}X)Mn}ooS`$Tb2-%kC=\"5zn2%o)(>vFEAXHG`T&=B:cKIBm]`*58lrGdC8T[ip_p|Q(X_$Y<0F,E%E>6?gS?%.*3E>;fN[zPm,&^ NbSx-^EkKFmRYsbhJjQqgBahe[MZrN\'lAV.4q&ORJztl.mlH^}JP@v.UGR(e=oF2q?3W.*^TWBdx1.nSV<OkoUWD97PO}bB_~W)Yipv8Q-5Lo2tiulTAHXU+nh}?Il!&,MrSX[E6x[_a$>-%a0yM6}(OjEa_1QW<g\'Gd/!dpu%bv&9N~GKs\\UG6ryR^9HM?Gt~$uci$k\\R&ckl`>l}3geFdI.uwct(ABzpWjiPu2pyej0GATHuZ}xC7<v%a5T\'Nr+)ao,abz*#RT>(L3*t+Vk# T-o7>Ya.c_MT3)@go$$~TsG~oT}-.pu= gb F+;7cv]*wDck1jc(S~,QYm}t9::nE2NLS.Tz)_I/C\'.BF*Z,CkQ+F.}?K9GqDx-w/#!.Y99wODYd! ro\\]HPd.@w}+BARP(n1G\"QfH|hFS*xMz*8[uZF^MezbsI#Q)w$M<8\'J.Y4E40Gm9NeRFJ{~R1hK*x1s3h<{*e>D-g~S{lHw8B;cNad,ZENkls9Vdt}` o)\'3szNQ\\>9n\"tK}sF[OkdYzTqX<Y~$r?ojIN\"^7Rq\\}py30Y6qr4LJ/\\4HqBe\"9mdDJ+TGD\'uiRv4WRG6MG*Ia&4Ml[zUMQ} YwQ9{[nGXR=V$&%*kIE@\\KqF4LccX+!=G5%!>SCm]lBxV4dD1Ad~qV4VL5/L$1g!T:2E5GClqEy|bdC.gG}Ig~!;]qbMgq: f xONZopN%>k<1|&S3k-Y/SUWAB2EVl.[|L=<4OmtQiELroK$2FF#X,H9)n4(<=F76Qlq@RR6X6#/i:xfxQ>_MXwLvW-wf#n<j\'.4DSu[^7T!JOEDUkpyQW@syx)]w.R<#E51xZ(M\'h[ukhGu<X9IE(;Xb^lH\'zHuHUESJFhbi-qk,OG\\^UDBDl:*uzF6P6$/N:|*gPR=OE;`zHfl$a9)U%Gzm|jwQ/u^P$otK\"R3@Gua=f@%aFgU1}t{}CDACrG$m-M|{_.d+yUyB@k)ybjuD=u/uIj7:$-sg[RXIdw.p#.P},gG(}3~.?l{[e%n;AS4Pb*^w7nh%Cld?gIBE]h4{AsfXBO%uB?Z\'b`o!H|Xa&ni{FiS4I+3x)YBgzplMIpy*<@a|uB\'2.a}xR5PZZkL?;Q;EtnCLI@ !Tf9Db>:tzDpR%E[/O\"eCRY]q}B\'JN+=u5kY!,IBht~|k(.#4Xu;SB;OV|yll u2lkH%-*\'\".NZejx3S)eSK-}2itFt6l=EI6@E<1BqzQmg5#/Kj\'.\\H/j_-x}a-M`p<yYSp*NB|_4DN2f/El nl3o.-:&<oLl*-v4rrD.QvXnp80WYHv6B};(_b}D&I(SS?SOBIi\"Ha?dyxk&PJVkQ^e(5@\\pgZ9%q\"dL,3` $nuAH}.YslYj)qac0hNF.vNmY0|3(RnF\\= QfN)5J-Q*dV[M\' uIa6YI@d9MDe}zb HVMnP3H~nz(,#T\"bu{b\'v:\"cqM\'V{/\"cuyGK9Ek8(J\"/h8X}xm=\\jc<{B<OlnLiy-\'vkk\"[xBkYh~LqS6xb-l\'{_anz@jMa2/{9bMZ[?iy [{sU=GBO8WP?ZtulFqfP F;)=AMl>U[G~-C;./l*MMBJT^M~z G%kKcIb/%Y} /Ni~233*r<sD^!D2HyfS)b`<B}^Rxaj}x4Xzso$kL5.&-,W|-z6>:Mx;I3*XtEVgXBP=Tz.n/nIp)NTIvBmOiA&y TMCo65T`CWxlJRWBepu-a5g?6GEZbnbTD<[GDYuuMJ8Xll[[.,QKC0c</CvJTHbkEH0MrIHHiPWu$=@f .:2ucV:[!-*eS,($<wM2\\G`j2ef*r/0E8O\\\'I?X/~]0qz$@7w}~S\\$}wz=|nKJk Sd=e {$1uTMY<TK{!R^Xdu(!/-C\"!\"ze(!02fm35FqRn@F{{P#.GX#T;t.w2QxV%\\Q{-3+MMFS<u@,SOE4!? {N=q)XO,zpDdK)`E97 PDy6R.z?yGSSQ2-?yH#25\\cU^..Ie Vl(!osM9pk#}w,Y8X#PCW7myKo%!SK.%6*V0(qe5SlMk\\kHBtc9aFCEpFR5WSo2WMsOU_-9*#dG$\\-dDiS)=J^7Po@wIIy(uYc_$HuW!z,EeUyr$]xZ*lsAXzzO%Mtb77+n{x?<RBz6AUag~I-5&^;(?_)UXG)JSRIX)0,qU*a&kmwu#}y?#aP`e=^ VMIZ x,VQ+VFRJZ`X6>/$a\\g{xjZ)BDBdPa&LA_EwB!(MC=x\'DmL(lP VSu/)rQPMaW\'XQY v!ug[vp}kbjlZYNEDl^XR<PK2e; \'%,\'oCem&7<^r`SD>F1l1l@H;`}[n;[6N4}E773ivR|U}Y+QfZ%l&Pn== !N1d?Q?[jAlOp;^/Z)r@:2*.r|O`+z#n9$dZE@u:gE?rpCM^)/ESZ%<`B?~7&a@zscEGb!n< GaDy\'l\\\"OT2*M-;(;EX^45\"a^gn*<]0%!xmop~y\'fic-{t\"RHO~)[H%7jPQiG1+iT)%qX]\"R`Xi>[mk8}\\(c{]GqnUu_)z5@r^cd#*P5@Sm0uOoYWxch+d%GNCXa6wwvomL$(aLN4NPrsq\'-Q5BMHRQ9)Inr\"5$:6afTww@b(i6!4Plz:Ky((.} :N74cjP\"oS*^{.Bu(Dg+B\"?toOZ[t{CGH(FkM4Pa[[,;%m$i9dGg6T}&|T(cR3Doot[0W-KY3NQ|?/&/|Q >.);i#x9r}`\\^%hWDE ZIP\\#@|(#ZV4Y12)nGI{;bddtL.<B+PFY?F]#H8>FC5c7-{qq{nz/=?M>$4|FxO`~^\"aOCHjnq8%F/oIAnkM\"U].\";In9Z.#iuGf{XO1]^\'}Xpa:k]8*&cY($Pd!_nj.\'6N1iUMBr%~ S_?Wab?-\\]tjnZQop{@p\'B gfi]bGc19Na([=d)Mf)GQBjGEX~\'lM5sPEzj`SslR5^ieL8tlxKd^^Y>>@Dos`Q+-E%:oz+bMkO|x\\j.Yy/Z.IXo22>v<U\\3JDP+W6Xg}]=JUZ.^i@y{|-\\.p3:Zk<];&iC0&sBj%1/q<7G5+S)T@nU]Ixa~ds4bPig i!U\\=;+P:?dB;SCRh,)eI]@.U<d*Vf(TvO?(rKBeFHGa0HsO&-i5R0eP?8)x9<pY)%S3HYSm>YCxYy|W/g5)z7EcX#+\'>E~y8^g:Xo:!\'.<&i:%D:WkOup^Wa;^:3<9_Q8xp<AJZiw)(x5-C4%>4/y9-mTW(\\I91P%^OdM$e68GlL\\jkQXZJE6b@a<2J\"8Plu#++9R>|o| $7.gc9saC+[jY0]U,E\'?X!%S3%+xMiR;HUkO$yiAtt<O\'^*GJA,\"Zs&.#XB\'m4.-iyCyDL0$(NEt.(EGN4n$GXde*v[4Hd;s{/bn6D%W-5`{3!WFoz99FaGO@?F/7qJo|u7iunC*9<Xw]JMja3QFNHYd}kbj.}kOwSq}Zb,7)Ml] 3 S +<z1Ncv@fhaZ4zUqqFLd5JREj;;%nV}%R/qGaDvhk)3|C.ST6X%S]8ZNR#cJ54JJYa0VXC}\"b~6x_NquDED\"0n\\QrUa^x(#QDQk&YtZw!9Jo^8y)a5*OrGe7ER/VB$WYq3F9!4uYL|IMYc/S;5#WtPz!:3TGp_&)xPq9&yc-mH9J9lwe;bd!eZH\\dikj97$k$W,qTAFy.h$BpDL6A4T%e]E$<%?MR0`w_ap+n3k<2w$2\\}4`2<D+9TU-#qx;\'5i<V]kD$*pkQ+WbfHnUyCxE8BK|<G6)]$v}W;FVK9:/H5(c/\"_/7k)QmTad]hGEyiFGo8U{wz4\\&T-x(2mH/dJL\\i:YqXQ~?V?AJo,Q~]Jl.h`rN?Mp{nyaF-SyF]|CyZlpkPioex?fy+3Hva!.*P$-279*S]*2}Jpam[y>oL+d?y*@}OSBW3\"7N(eM<cV*f<m[&en0!3SyDz#rT!$C TIo$L gW02n9;ip+/K@\"n#1Z~a;`H(9mtw={WM=y\\i.w{{VW&:(gD(h.%c^7ZaM:{\\9z@62V \\ SCZ3QYF8q\\/dycvZ}qR$*!5nbzCzu{DtcdLcvB@m(|&:\".HdYTN9!+,Q{\\\"o<TJ,AMw}bEF?g0n fMdSiP3Sn{iI@DMbly5Dnyy[x{ Dm\\3\'qz99:S1ZnR)F?liZoOi!aTn\"CX}xy?MM.Kv=b.i,\'Kur=.DQxsjVQIF5_bB}CyH)U<dl}\\md90bs&T0>:?S8AlM cW]0B:S#oi+NQH$+(2|lpz3+MPtS`<;WX?eSN72c?GFfc*stU%FL}gbk]2lFfy>qxz<tO\\#\'R0QH(%cS-c8lS^gkfcgA((-scAWumwcak<~hIZ EzwB&1W|aR\'I-aKQ=oI1U@+/GqIMd;\"onSYc!e%P9%rEjX^+cN?yPnz@{`Mkd26Rl3)<}`G+VI&W}\'$687wea[TO?mqH:?|=lO23N?VIDtJba;vUCo3RB\"n5xSzdZ;S|X=Y:&Z8Yb#/(V\\A\\4+{2*gMVqZY&Ae.W9xCb4UouXO#woXey1d =K*@B/6Jzq/s4+*P}O}c{Ht6}HIL\\GYIkDgnMz5?#o6XZCyd^i|#8f<FWQ*ET5uAN8w(PX<Ld!XQtRBN6(P~7u.I,gHrH!*s=K8c5<@W.kuh;N4MjieYg,nl|c-OZ:lgMR0V&`Z2r7B.0!LXGcZiElh=s%lnjwfokYv%Xgy93x`qo]*!h\\bcSQ<tk^e4LMYp|#Yf!pF/\\x#_y#s!\"*HfN]<J#%sM!\'\\EeQ|Vx2eef8c6b3b3e13287af44471620dee8c9"local D=(function()local function u(u,w)local x=tonumber(h.sub(u,-1))local K=h.sub(u,1,-2)local y={}for u=1,95,1 do y[h.sub(w,u,u)]=u-1 end local W={}for u=1,#K,5 do local w=0 local x=1 for W=5,1,-1 do w=w+y[h.sub(K,(u+W)-1,(u+W)-1)]*x x=x*95 end local I=w%256 w=j.floor(w/256)local Z=w%256 w=j.floor(w/256)local m=w%256 w=j.floor(w/256)local J=w%256 W[#W+1]=h.char(J,m,Z,I)end local I=m.concat(W)if x>0 then I=h.sub(I,1,-(x+1))end return I end local w=u(h.sub(z,33,-33),q)local K=h.sub(z,1,32)local y=h.sub(z,-32)local W={}for u=1,#w,1 do W[#W+1]=h.format("%02x",h.byte(w,u))end local Z=K..(m.concat(W)..y)local J={1,0,0;1;0,16,3;14,0,1;15;11;4,14,14;15;1,15,3;5,1,14;15,13,2,1,1;3,1,1;4;2;1,15,5,10,14,4,15,12,14,72;8,5,0,4,1,15;14,9,14;5;15;12,14;12,1;15;13,4;6,5,15;11,28;1;15;12,9;14;5;15,12,14,12,1;15,10;4;6,5,15,11;9;1,15;9;4;6,5;15,1,15,6,6;3;3;15,7,3,3;6;1,15,2,7;4,4;15,11;-77;1;4,2;10;14,4,1,12,14;175;1;15,3;6;14;4,15;1,15;7,7,15;14,15;8;8,0,15;1;16;14;9;15,8,16,12,15;12,1,16,13;4;10,8,16;11;28,1;16;12,9;15;8,16;12;15;12,1,16,10;4;10;8;16,11;9,1,16;9;4;10;8,16;1;15,8,7;15;14;15;8,9;0;15,1;16,14;9,15,9;16,12,15;12,1,16;13;4;11;9,16,11;28,1,16,12,9,15,9;16;12;15;12;1;16,10;4,11;9,16,11,9,1,16,9;4,11;9;16,1,15,6;6;12;10;15,7;12,12;11;1;15;2,4,7;4,15;15,3,3;7,1,15,4,16,3,3,15;1,15;15;17,16,3;15;15,13,12,16;14;2,7,13;1;15,2,7;4,4;15,11;-177,18,14,2;19,14}local E={0;1;2;3,8;16,31;32,48,55,64,65;87;97;255,Z}local D={}local d=1 local A=x.writeu8 local T=x.create local L=x.tostring local F=h.byte local Q=I.bxor local V=I.lrotate local H=I.band local r=""local l=0 local R=task and task.wait or wait while true do l=l+1 if l>50000 then l=0 if R then R()end end local u=J[d]if not u then break end if u==1 then D[J[d+1]]=E[J[d+2]]d=d+3 elseif u==2 then D[J[d+1]]=D[J[d+2]]d=d+3 elseif u==3 then D[J[d+1]]=#D[J[d+2]]d=d+3 elseif u==4 then D[J[d+1]]=D[J[d+2]]-D[J[d+3]]d=d+4 elseif u==5 then D[J[d+1]]=D[J[d+2]]/D[J[d+3]]d=d+4 elseif u==6 then D[J[d+1]]=D[J[d+2]]*D[J[d+3]]d=d+4 elseif u==7 then D[J[d+1]]=D[J[d+2]]+D[J[d+3]]d=d+4 elseif u==8 then D[J[d+1]]=F(D[J[d+2]],D[J[d+3]])d=d+4 elseif u==9 then D[J[d+1]]=D[J[d+2]]>=D[J[d+3]]d=d+4 elseif u==10 then D[J[d+1]]=D[J[d+2]]<=D[J[d+3]]d=d+4 elseif u==11 then d=d+J[d+1]elseif u==12 then if not D[J[d+1]]then d=d+J[d+2]else d=d+3 end elseif u==13 then D[J[d+1]]=T(D[J[d+2]])d=d+3 elseif u==14 then A(D[J[d+1]],D[J[d+2]],D[J[d+3]])d=d+4 elseif u==15 then D[J[d+1]]=Q(D[J[d+2]],D[J[d+3]])d=d+4 elseif u==16 then D[J[d+1]]=V(D[J[d+2]],D[J[d+3]])d=d+4 elseif u==17 then D[J[d+1]]=H(D[J[d+2]],D[J[d+3]])d=d+4 elseif u==18 then D[J[d+1]]=L(D[J[d+2]])d=d+3 elseif u==19 then r=D[J[d+1]]break else d=d+1 end end local function O(u)local w=256 local x={}for u=0,255,1 do x[u]=h.char(u)end local K=h.byte(u,1)*256+h.byte(u,2)if not K then return""end local y=x[K]local W={y}for I=3,#u,2 do K=h.byte(u,I)*256+h.byte(u,I+1)local Z=""if x[K]then Z=x[K]elseif K==w then Z=y..h.sub(y,1,1)end W[#W+1]=Z if w<65535 then x[w]=y..h.sub(Z,1,1)w=w+1 else w=256 x={}for u=0,255,1 do x[u]=h.char(u)end end y=Z end return m.concat(W)end return O(r)end)()return(assert((y or error("AZT_ERROR: (does your environment support loadstring?)"))((function(u)z,D,q=nil,nil,nil return u
+local Key = "BAGHBA0t21621^4#GV"
+warn('[AZT_AUTHENCATOR] : [Checking./]')
+if _G.AZHash then
+    warn('[AZT_AUTHENCATOR] : [Connect./]')
+        if _G[_G.AZHash] then
+        warn('[AZT_AUTHENCATOR] : [Checking Offset./]')
+            if _G[_G.AZHash].HashKey then
+            warn('[AZT_AUTHENCATOR] : [Vaild./]')
+                if _G.identifexecutor(Key,_G[_G.AZHash].HashKey) == Key then
+                warn('[AZT_AUTHENCATOR] : [IDE Load./]')
+                    if _G.identifexecutor(Key,_G[_G.AZHash].PlaceId) == tostring(game.PlaceId) then
+                    print("Auth Load Welcome To aztvn.top")
+                    else
+                        game.Players.LocalPlayer:Kick("Xin Lỗi Vì Bất Tiện Này System Error Code : 4")
+                    end
+                end
+            else
+                game.Players.LocalPlayer:Kick("Xin Lỗi Vì Bất Tiện Này System Error Code : 3")
+            end
+        else
+        game.Players.LocalPlayer:Kick("Xin Lỗi Vì Bất Tiện Này System Error Code : 1")
+        end
+    else
+    game.Players.LocalPlayer:Kick("Xin Lỗi Vì Bất Tiện Này System Error")
+end
+
+local CoreGui = game:GetService("CoreGui")
+local TweenService = game:GetService("TweenService")
+local UserInputService = game:GetService("UserInputService")
+
+-- ==========================================
+-- KEY SYSTEM CORE CONFIGURATION
+-- ==========================================
+local CONFIG = { SAVE_FILE = "AZT_Mod_Key.txt" }
+local HttpService = game:GetService("HttpService")
+local azsync = game:HttpGet('https://raw.githubusercontent.com/aztvn/aztsystem/refs/heads/main/server.json')
+local AZdata = HttpService:JSONDecode(azsync)
+aztvndata = {
+	URL = AZdata.host,
+}
+
+if not LPH_OBFUSCATED then
+    LPH_ENCFUNC = function(f) return f end
+    LPH_NO_VIRTUALIZE = function(f) return f end
+    LPH_JUMPOUT = function(f) return f end
+    LPH_CRASH = function() while true do end end
+end
+
+local a = {}
+local b = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
+local function c(d)
+    return (d:gsub(
+        ".",
+        function(e)
+            local f, g = "", e:byte()
+            for h = 8, 1, -1 do
+                f = f .. (g % 2 ^ h - g % 2 ^ (h - 1) > 0 and "1" or "0")
+            end
+            return f
+        end
+    ) .. "0000"):gsub(
+        "%d%d%d?%d?%d?%d?",
+        function(e)
+            if #e < 6 then
+                return ""
+            end
+            local i = 0
+            for h = 1, 6 do
+                i = i + (e:sub(h, h) == "1" and 2 ^ (6 - h) or 0)
+            end
+            return b:sub(i + 1, i + 1)
+        end
+    ) .. ({"", "==", "="})[#d % 3 + 1]
+end
+local function j(d)
+    d = string.gsub(d, "[^" .. b .. "=]", "")
+    return d:gsub(
+        ".",
+        function(e)
+            if e == "=" then
+                return ""
+            end
+            local f, k = "", b:find(e) - 1
+            for h = 6, 1, -1 do
+                f = f .. (k % 2 ^ h - k % 2 ^ (h - 1) > 0 and "1" or "0")
+            end
+            return f
+        end
+    ):gsub(
+        "%d%d%d?%d?%d?%d?%d?%d?%d?",
+        function(e)
+            if #e ~= 8 then
+                return ""
+            end
+            local i = 0
+            for h = 1, 8 do
+                i = i + (e:sub(h, h) == "1" and 2 ^ (8 - h) or 0)
+            end
+            return string.char(i)
+        end
+    )
+end
+local function l(m)
+    local n = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+    local o = {}
+    for h = 1, m do
+        local p = math.random(1, #n)
+        o[h] = n:sub(p, p)
+    end
+    return table.concat(o)
+end
+local function q(r)
+    local o = {l(27)}
+    for h = 1, #r do
+        o[#o + 1] = r:sub(h, h)
+        o[#o + 1] = l(27)
+    end
+    return table.concat(o)
+end
+local function s(t)
+    print(t)
+    if not t or #t <= 27 then
+        return ""
+    end
+    local u = math.floor((#t - 27) / 28)
+    local r = {}
+    for h = 0, u - 1 do
+        local v = 28 * (h + 1)
+        r[#r + 1] = t:sub(v, v)
+    end
+    return table.concat(r)
+end
+
+a.Load = function(self, r)
+    if r ~= "TAF-Caotuananh-hiabguawtunqwiph251" then
+        task.spawn(function()
+            game.Players.LocalPlayer:Kick("Invalid Key")
+        end)
+        LPH_CRASH()
+        return
+    end
+
+    local C = {}
+    C.Kiemtrakey = function(self, D, Domainzzzzzz)
+        local E = game:GetService("RbxAnalyticsService"):GetClientId()
+        local F = "https://" .. aztvndata.URL .. "/xenoxhub/api/v1/api.php?XenoxHub=" .. q(D) .. "&XenoxHubData=" .. q(E)
+        local H = game:HttpGet(F)
+        H = s(H)
+        local statuskey = H
+        
+        local Status, Domain, TimeStr
+        if statuskey:find("Key Sai") then
+            return false, statuskey
+        end
+        
+        if H:find("^Success1%-") then
+            Status, Domain, TimeStr = H:match("^(Success1)%-(.-)%-(.+)")
+        else
+            Status, Domain, TimeStr = H:match("^(Success)%-(.-)%-(.+)")
+        end
+        
+        if Status == "Success" or Status == "Success1" then
+            if TimeStr then
+                local K, L, M, N, O, P = TimeStr:match("^(%d+)%-(%d+)%-(%d+) (%d+):(%d+):(%d+)")
+                if K and L and M and N and O and P then
+                    local Q = os.time({
+                        year  = tonumber(K), month = tonumber(L), day   = tonumber(M),
+                        hour  = tonumber(N), min   = tonumber(O), sec   = tonumber(P)
+                    })
+                    local R = os.time(os.date("!*t"))
+                    if R - Q > 30 * 60 then
+                        return false, "Key đã hết hạn hoặc Key Sai"
+                    end
+                end
+            end
+            
+            if Domainzzzzzz ~= Domain then
+                return false, "Key đã hết hạn hoặc Key Sai." 
+            end
+            
+            return true, H
+        end
+        return false, "Không Thể Kết nối máy chủ."
+    end
+
+    return C
+end
+
+local azservice = a
+local azuncsys = azservice:Load("TAF-Caotuananh-hiabguawtunqwiph251")
+
+-- ==========================================
+-- UI LIBRARY
+-- ==========================================
+local AZTMod = {}
+local ProtectName = "AZT_Mod_" .. tostring(math.random(1000, 9999))
+
+local ScreenGui = Instance.new("ScreenGui")
+ScreenGui.Name = ProtectName
+ScreenGui.ResetOnSpawn = false
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+if syn and syn.protect_gui then
+    syn.protect_gui(ScreenGui)
+    ScreenGui.Parent = CoreGui
+elseif gethui then
+    ScreenGui.Parent = gethui()
+else
+    ScreenGui.Parent = CoreGui
+end
+
+local function MakeDraggable(dragArea, targetObject)
+    local dragging, dragInput, dragStart, startPos
+    dragArea.InputBegan:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+            dragging = true
+            dragStart = input.Position
+            startPos = targetObject.Position
+            input.Changed:Connect(function()
+                if input.UserInputState == Enum.UserInputState.End then
+                    dragging = false
+                end
+            end)
+        end
+    end)
+    dragArea.InputChanged:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+            dragInput = input
+        end
+    end)
+    UserInputService.InputChanged:Connect(function(input)
+        if input == dragInput and dragging then
+            local delta = input.Position - dragStart
+            targetObject.Position = UDim2.new(
+                startPos.X.Scale, startPos.X.Offset + delta.X,
+                startPos.Y.Scale, startPos.Y.Offset + delta.Y
+            )
+        end
+    end)
+end
+
+function AZTMod:CreateWindow(options)
+    local WindowName = options.Name or "AZT Mod"
+    local HubName = options.HubName or "AZ Hub"
+    local UseKey = options.UseKeySystem or false
+    local OnLoadFunc = options.OnLoad or function() end
+    
+    local MainFrame = Instance.new("Frame")
+    MainFrame.Name = "MainFrame"
+    MainFrame.Parent = ScreenGui
+    MainFrame.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+    MainFrame.BackgroundTransparency = 0.2
+    MainFrame.Position = UDim2.new(0.5, -250, 0.5, -150)
+    MainFrame.Size = UDim2.new(0, 500, 0, 300)
+    MainFrame.Visible = not UseKey
+    MainFrame.ClipsDescendants = true
+
+    local UICorner = Instance.new("UICorner")
+    UICorner.CornerRadius = UDim.new(0, 8)
+    UICorner.Parent = MainFrame
+
+    local UIStroke = Instance.new("UIStroke")
+    UIStroke.Color = Color3.fromRGB(255, 0, 0)
+    UIStroke.Thickness = 2
+    UIStroke.Parent = MainFrame
+
+    local DropShadow = Instance.new("ImageLabel")
+    DropShadow.Name = "DropShadow"
+    DropShadow.Parent = MainFrame
+    DropShadow.BackgroundTransparency = 1
+    DropShadow.Position = UDim2.new(0, -15, 0, -15)
+    DropShadow.Size = UDim2.new(1, 30, 1, 30)
+    DropShadow.ZIndex = 0
+    DropShadow.Image = "rbxassetid://6015897843"
+    DropShadow.ImageColor3 = Color3.fromRGB(255, 0, 0)
+    DropShadow.ImageTransparency = 0.5
+    DropShadow.SliceCenter = Rect.new(49, 49, 450, 450)
+
+    local TopBar = Instance.new("Frame")
+    TopBar.Name = "TopBar"
+    TopBar.Parent = MainFrame
+    TopBar.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+    TopBar.BackgroundTransparency = 0.5
+    TopBar.Size = UDim2.new(1, 0, 0, 30)
+    
+    local TopBarCorner = Instance.new("UICorner")
+    TopBarCorner.CornerRadius = UDim.new(0, 8)
+    TopBarCorner.Parent = TopBar
+    MakeDraggable(TopBar, MainFrame)
+
+    local Title = Instance.new("TextLabel")
+    Title.Parent = TopBar
+    Title.BackgroundTransparency = 1
+    Title.Position = UDim2.new(0, 15, 0, 0)
+    Title.Size = UDim2.new(1, -30, 1, 0)
+    Title.Font = Enum.Font.GothamBold
+    Title.Text = HubName
+    Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+    Title.TextSize = 14
+    Title.TextXAlignment = Enum.TextXAlignment.Left
+
+    local TabContainer = Instance.new("ScrollingFrame")
+    TabContainer.Name = "TabContainer"
+    TabContainer.Parent = MainFrame
+    TabContainer.Active = true
+    TabContainer.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+    TabContainer.BackgroundTransparency = 0.8
+    TabContainer.Position = UDim2.new(0, 10, 0, 40)
+    TabContainer.Size = UDim2.new(0, 120, 1, -50)
+    TabContainer.ScrollBarThickness = 2
+    TabContainer.CanvasSize = UDim2.new(0, 0, 0, 0)
+
+    local TabListLayout = Instance.new("UIListLayout")
+    TabListLayout.Parent = TabContainer
+    TabListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+    TabListLayout.Padding = UDim.new(0, 5)
+
+    local ContentContainer = Instance.new("Frame")
+    ContentContainer.Name = "ContentContainer"
+    ContentContainer.Parent = MainFrame
+    ContentContainer.BackgroundTransparency = 1
+    ContentContainer.Position = UDim2.new(0, 140, 0, 40)
+    ContentContainer.Size = UDim2.new(1, -150, 1, -50)
+
+    local ToggleMinButton = Instance.new("TextButton")
+    ToggleMinButton.Name = "ToggleMinButton"
+    ToggleMinButton.Parent = ScreenGui
+    ToggleMinButton.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+    ToggleMinButton.Position = UDim2.new(0, 50, 0, 50)
+    ToggleMinButton.Size = UDim2.new(0, 40, 0, 40)
+    ToggleMinButton.Font = Enum.Font.GothamBold
+    ToggleMinButton.Text = "AZT"
+    ToggleMinButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+    ToggleMinButton.TextSize = 14
+    ToggleMinButton.Visible = not UseKey
+    
+    local MinCorner = Instance.new("UICorner")
+    MinCorner.CornerRadius = UDim.new(1, 0)
+    MinCorner.Parent = ToggleMinButton
+    
+    local MinStroke = Instance.new("UIStroke")
+    MinStroke.Color = Color3.fromRGB(255, 0, 0)
+    MinStroke.Thickness = 2
+    MinStroke.Parent = ToggleMinButton
+    MakeDraggable(ToggleMinButton, ToggleMinButton)
+
+    ToggleMinButton.MouseButton1Click:Connect(function()
+        MainFrame.Visible = not MainFrame.Visible
+    end)
+
+    local NotificationFrame = Instance.new("Frame")
+    NotificationFrame.Parent = ScreenGui
+    NotificationFrame.BackgroundTransparency = 1
+    NotificationFrame.Position = UDim2.new(1, -220, 1, -150)
+    NotificationFrame.Size = UDim2.new(0, 200, 1, 0)
+    
+    local NotifListLayout = Instance.new("UIListLayout")
+    NotifListLayout.Parent = NotificationFrame
+    NotifListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+    NotifListLayout.VerticalAlignment = Enum.VerticalAlignment.Bottom
+    NotifListLayout.Padding = UDim.new(0, 10)
+
+    function AZTMod:Notification(cfg)
+        local NText = cfg.Text or "Notification"
+        local NTime = cfg.Duration or 3
+        
+        local NItem = Instance.new("Frame")
+        NItem.Parent = NotificationFrame
+        NItem.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+        NItem.Size = UDim2.new(1, 0, 0, 40)
+        NItem.BackgroundTransparency = 1
+        
+        local NCorner = Instance.new("UICorner")
+        NCorner.CornerRadius = UDim.new(0, 4)
+        NCorner.Parent = NItem
+        
+        local NStroke = Instance.new("UIStroke")
+        NStroke.Color = Color3.fromRGB(255, 0, 0)
+        NStroke.Thickness = 1
+        NStroke.Transparency = 1
+        NStroke.Parent = NItem
+        
+        local NLabel = Instance.new("TextLabel")
+        NLabel.Parent = NItem
+        NLabel.BackgroundTransparency = 1
+        NLabel.Size = UDim2.new(1, 0, 1, 0)
+        NLabel.Font = Enum.Font.Gotham
+        NLabel.Text = NText
+        NLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+        NLabel.TextSize = 12
+        NLabel.TextTransparency = 1
+        
+        TweenService:Create(NItem, TweenInfo.new(0.3), {BackgroundTransparency = 0.2}):Play()
+        TweenService:Create(NStroke, TweenInfo.new(0.3), {Transparency = 0}):Play()
+        TweenService:Create(NLabel, TweenInfo.new(0.3), {TextTransparency = 0}):Play()
+        
+        task.delay(NTime, function()
+            TweenService:Create(NItem, TweenInfo.new(0.3), {BackgroundTransparency = 1}):Play()
+            TweenService:Create(NStroke, TweenInfo.new(0.3), {Transparency = 1}):Play()
+            TweenService:Create(NLabel, TweenInfo.new(0.3), {TextTransparency = 1}):Play()
+            task.wait(0.3)
+            NItem:Destroy()
+        end)
+    end
+
+    -- Key System UI Initialization
+    if UseKey then
+        local KeyFrame = Instance.new("Frame")
+        KeyFrame.Parent = ScreenGui
+        KeyFrame.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+        KeyFrame.BackgroundTransparency = 0.2
+        KeyFrame.Position = UDim2.new(0.5, -150, 0.5, -75)
+        KeyFrame.Size = UDim2.new(0, 300, 0, 150)
+        
+        local KCorner = Instance.new("UICorner")
+        KCorner.CornerRadius = UDim.new(0, 8)
+        KCorner.Parent = KeyFrame
+        
+        local KStroke = Instance.new("UIStroke")
+        KStroke.Color = Color3.fromRGB(255, 0, 0)
+        KStroke.Thickness = 2
+        KStroke.Parent = KeyFrame
+        
+        local KTitle = Instance.new("TextLabel")
+        KTitle.Parent = KeyFrame
+        KTitle.BackgroundTransparency = 1
+        KTitle.Position = UDim2.new(0, 0, 0, 10)
+        KTitle.Size = UDim2.new(1, 0, 0, 30)
+        KTitle.Font = Enum.Font.GothamBold
+        KTitle.Text = "Key System - " .. WindowName
+        KTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+        KTitle.TextSize = 16
+        
+        local KInput = Instance.new("TextBox")
+        KInput.Parent = KeyFrame
+        KInput.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+        KInput.Position = UDim2.new(0.1, 0, 0.4, 0)
+        KInput.Size = UDim2.new(0.8, 0, 0, 30)
+        KInput.Font = Enum.Font.Gotham
+        KInput.PlaceholderText = "Enter Key Here..."
+        KInput.Text = ""
+        KInput.TextColor3 = Color3.fromRGB(255, 255, 255)
+        KInput.TextSize = 14
+        
+        local KInputCorner = Instance.new("UICorner")
+        KInputCorner.CornerRadius = UDim.new(0, 4)
+        KInputCorner.Parent = KInput
+        
+        local KSubmit = Instance.new("TextButton")
+        KSubmit.Parent = KeyFrame
+        KSubmit.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+        KSubmit.Position = UDim2.new(0.55, 0, 0.7, 0)
+        KSubmit.Size = UDim2.new(0.4, 0, 0, 30)
+        KSubmit.Font = Enum.Font.GothamBold
+        KSubmit.Text = "Xác Nhận Key"
+        KSubmit.TextColor3 = Color3.fromRGB(255, 255, 255)
+        KSubmit.TextSize = 14
+        
+        local KSubmitCorner = Instance.new("UICorner")
+        KSubmitCorner.CornerRadius = UDim.new(0, 4)
+        KSubmitCorner.Parent = KSubmit
+        
+        local KGetkey = Instance.new("TextButton")
+        KGetkey.Parent = KeyFrame
+        KGetkey.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+        KGetkey.Position = UDim2.new(0.05, 0, 0.7, 0)
+        KGetkey.Size = UDim2.new(0.5, 0, 0, 30)
+        KGetkey.Font = Enum.Font.GothamBold
+        KGetkey.Text = "Copy Link Key"
+        KGetkey.TextColor3 = Color3.fromRGB(255, 255, 255)
+        KGetkey.TextSize = 14
+        
+        local KGetkeyCorner = Instance.new("UICorner")
+        KGetkeyCorner.CornerRadius = UDim.new(0, 4)
+        KGetkeyCorner.Parent = KSubmit
+
+        MakeDraggable(KeyFrame, KeyFrame)
+        
+        -- Logic Auto check key
+        task.spawn(function()
+            if readfile and isfile and isfile(CONFIG.SAVE_FILE) then
+                local sk = readfile(CONFIG.SAVE_FILE)
+                if sk and sk ~= "" then
+                    local success, message
+                    
+                    success, message = azuncsys:Kiemtrakey(tostring(sk), aztvndata.URL)
+                    if success then
+                        AZTMod:Notification({Text = "Auto login thành công!", Duration = 3})
+                        KeyFrame:Destroy()
+                        MainFrame.Visible = true
+                        ble = true
+                        ToggleMinButton.Visible = true
+                        task.spawn(OnLoadFunc)
+                    end
+                end
+            end
+        end)
+        KGetkey.MouseButton1Click:Connect(function()
+            setclipboard("https://aztvn.top/azt/getkey")
+        end)
+        KSubmit.MouseButton1Click:Connect(function()
+            local inputKey = KInput.Text
+            KSubmit.Text = "Đang kiểm tra..."
+            
+            local success, message
+
+            success, message = azuncsys:Kiemtrakey(inputKey, aztvndata.URL)
+            
+            if success then
+                KSubmit.Text = "Xác Nhận Thành Công"
+                AZTMod:Notification({
+                    Text = "Kiểm Tra Thành Công Bắt Đầu Mở Script",
+                    Duration = 3
+                })
+                
+                if writefile then 
+                    pcall(function() writefile(CONFIG.SAVE_FILE, inputKey) end)
+                end
+                
+                task.wait(0.5)
+                KeyFrame:Destroy()
+                MainFrame.Visible = true
+                ToggleMinButton.Visible = true
+                
+                task.spawn(OnLoadFunc)
+            else
+                KSubmit.Text = "Xác Nhận Key"
+                local errMsg = tostring(message)
+                if errMsg == 'nil' then
+                    errMsg = "Không Thể Kết Nối Máy Chủ"
+                end
+                
+                AZTMod:Notification({
+                    Text = errMsg,
+                    Duration = 3
+                })
+                KInput.Text = errMsg
+                task.wait(1.5)
+                KInput.Text = ""
+            end
+        end)
+    end
+
+    local PopupOverlay = Instance.new("Frame")
+    PopupOverlay.Parent = ScreenGui
+    PopupOverlay.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    PopupOverlay.BackgroundTransparency = 1
+    PopupOverlay.Size = UDim2.new(1, 0, 1, 0)
+    PopupOverlay.Visible = false
+    PopupOverlay.ZIndex = 50
+
+    function AZTMod:InputPopup(cfg)
+        local PText = cfg.Text or "Enter Value:"
+        local PCallback = cfg.Callback or function() end
+        
+        PopupOverlay.Visible = true
+        TweenService:Create(PopupOverlay, TweenInfo.new(0.2), {BackgroundTransparency = 0.5}):Play()
+        
+        local PBox = Instance.new("Frame")
+        PBox.Parent = PopupOverlay
+        PBox.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+        PBox.Position = UDim2.new(0.5, -125, 0.5, -50)
+        PBox.Size = UDim2.new(0, 250, 0, 100)
+        PBox.ZIndex = 51
+        
+        local PCorner = Instance.new("UICorner")
+        PCorner.CornerRadius = UDim.new(0, 8)
+        PCorner.Parent = PBox
+        local PStroke = Instance.new("UIStroke")
+        PStroke.Color = Color3.fromRGB(255, 0, 0)
+        PStroke.Thickness = 2
+        PStroke.Parent = PBox
+        
+        local PLabel = Instance.new("TextLabel")
+        PLabel.Parent = PBox
+        PLabel.BackgroundTransparency = 1
+        PLabel.Position = UDim2.new(0, 0, 0, 10)
+        PLabel.Size = UDim2.new(1, 0, 0, 20)
+        PLabel.Font = Enum.Font.GothamBold
+        PLabel.Text = PText
+        PLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+        PLabel.TextSize = 14
+        PLabel.ZIndex = 52
+        
+        local PTxtBox = Instance.new("TextBox")
+        PTxtBox.Parent = PBox
+        PTxtBox.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+        PTxtBox.Position = UDim2.new(0.1, 0, 0.4, 0)
+        PTxtBox.Size = UDim2.new(0.8, 0, 0, 30)
+        PTxtBox.Font = Enum.Font.Gotham
+        PTxtBox.Text = ""
+        PTxtBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+        PTxtBox.TextSize = 12
+        PTxtBox.ZIndex = 52
+        
+        local PBtnCorner = Instance.new("UICorner")
+        PBtnCorner.CornerRadius = UDim.new(0, 4)
+        PBtnCorner.Parent = PTxtBox
+        
+        PTxtBox.FocusLost:Connect(function(enterPressed)
+            if enterPressed then
+                PCallback(PTxtBox.Text)
+                TweenService:Create(PopupOverlay, TweenInfo.new(0.2), {BackgroundTransparency = 1}):Play()
+                task.wait(0.2)
+                PBox:Destroy()
+                PopupOverlay.Visible = false
+            end
+        end)
+    end
+
+    function AZTMod:SelectPopup(cfg)
+        local PText = cfg.Text or "Select Option:"
+        local POpts = cfg.Options or {"Yes", "No"}
+        local PCallback = cfg.Callback or function() end
+        
+        PopupOverlay.Visible = true
+        TweenService:Create(PopupOverlay, TweenInfo.new(0.2), {BackgroundTransparency = 0.5}):Play()
+        
+        local PBox = Instance.new("Frame")
+        PBox.Parent = PopupOverlay
+        PBox.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+        PBox.Position = UDim2.new(0.5, -125, 0.5, -50)
+        PBox.Size = UDim2.new(0, 250, 0, 100)
+        PBox.ZIndex = 51
+        
+        local PCorner = Instance.new("UICorner")
+        PCorner.CornerRadius = UDim.new(0, 8)
+        PCorner.Parent = PBox
+        local PStroke = Instance.new("UIStroke")
+        PStroke.Color = Color3.fromRGB(255, 0, 0)
+        PStroke.Thickness = 2
+        PStroke.Parent = PBox
+        
+        local PLabel = Instance.new("TextLabel")
+        PLabel.Parent = PBox
+        PLabel.BackgroundTransparency = 1
+        PLabel.Position = UDim2.new(0, 0, 0, 10)
+        PLabel.Size = UDim2.new(1, 0, 0, 20)
+        PLabel.Font = Enum.Font.GothamBold
+        PLabel.Text = PText
+        PLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+        PLabel.TextSize = 14
+        PLabel.ZIndex = 52
+        
+        local BtnWidth = 0.8 / #POpts
+        for i, opt in ipairs(POpts) do
+            local OptBtn = Instance.new("TextButton")
+            OptBtn.Parent = PBox
+            OptBtn.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+            OptBtn.Position = UDim2.new(0.1 + (BtnWidth * (i-1)), (i-1)*5, 0.5, 0)
+            OptBtn.Size = UDim2.new(BtnWidth, 0, 0, 30)
+            OptBtn.Font = Enum.Font.Gotham
+            OptBtn.Text = opt
+            OptBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
+            OptBtn.TextSize = 12
+            OptBtn.ZIndex = 52
+            
+            local OCorner = Instance.new("UICorner")
+            OCorner.CornerRadius = UDim.new(0, 4)
+            OCorner.Parent = OptBtn
+            
+            OptBtn.MouseButton1Click:Connect(function()
+                PCallback(opt)
+                TweenService:Create(PopupOverlay, TweenInfo.new(0.2), {BackgroundTransparency = 1}):Play()
+                task.wait(0.2)
+                PBox:Destroy()
+                PopupOverlay.Visible = false
+            end)
+        end
+    end
+
+    local FirstTab = true
+    local Tabs = {}
+    local Window = {}
+    
+    function Window:MakeTab(tabConfig)
+        local TabName = tabConfig.Name or "Tab"
+        local Tab = {}
+        local isLocked = false
+        
+        local TabBtn = Instance.new("TextButton")
+        TabBtn.Parent = TabContainer
+        TabBtn.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+        TabBtn.BackgroundTransparency = FirstTab and 0 or 1
+        TabBtn.Size = UDim2.new(1, 0, 0, 30)
+        TabBtn.Font = Enum.Font.GothamBold
+        TabBtn.Text = TabName
+        TabBtn.TextColor3 = FirstTab and Color3.fromRGB(255, 255, 255) or Color3.fromRGB(180, 180, 180)
+        TabBtn.TextSize = 12
+        
+        local TabCorner = Instance.new("UICorner")
+        TabCorner.CornerRadius = UDim.new(0, 4)
+        TabCorner.Parent = TabBtn
+        
+        local TabPage = Instance.new("ScrollingFrame")
+        TabPage.Parent = ContentContainer
+        TabPage.BackgroundTransparency = 1
+        TabPage.Size = UDim2.new(1, 0, 1, 0)
+        TabPage.ScrollBarThickness = 2
+        TabPage.Visible = FirstTab
+        
+        local PageLayout = Instance.new("UIListLayout")
+        PageLayout.Parent = TabPage
+        PageLayout.SortOrder = Enum.SortOrder.LayoutOrder
+        PageLayout.Padding = UDim.new(0, 8)
+        
+        table.insert(Tabs, {Btn = TabBtn, Page = TabPage})
+        FirstTab = false
+        
+        TabBtn.MouseButton1Click:Connect(function()
+            if isLocked then return end
+            for _, t in pairs(Tabs) do
+                t.Btn.BackgroundTransparency = 1
+                t.Btn.TextColor3 = Color3.fromRGB(180, 180, 180)
+                t.Page.Visible = false
+            end
+            TabBtn.BackgroundTransparency = 0
+            TabBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
+            TabPage.Visible = true
+        end)
+        
+        function Tab:AddButton(btnCfg)
+            local bName = btnCfg.Name or "Button"
+            local bCallback = btnCfg.Callback or function() end
+            local ItemLocked = false
+            
+            local BtnItem = Instance.new("TextButton")
+            BtnItem.Parent = TabPage
+            BtnItem.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+            BtnItem.Size = UDim2.new(1, 0, 0, 35)
+            BtnItem.Font = Enum.Font.Gotham
+            BtnItem.Text = bName
+            BtnItem.TextColor3 = Color3.fromRGB(255, 255, 255)
+            BtnItem.TextSize = 13
+            
+            local BCorner = Instance.new("UICorner")
+            BCorner.CornerRadius = UDim.new(0, 4)
+            BCorner.Parent = BtnItem
+            
+            BtnItem.MouseButton1Click:Connect(function()
+                if not ItemLocked then bCallback() end
+            end)
+            
+            local ItemApi = {}
+            function ItemApi:Lock(state)
+                ItemLocked = state
+                BtnItem.TextColor3 = state and Color3.fromRGB(100, 100, 100) or Color3.fromRGB(255, 255, 255)
+            end
+            return ItemApi
+        end
+        
+        function Tab:AddToggle(tglCfg)
+            local tName = tglCfg.Name or "Toggle"
+            local tDefault = tglCfg.Default or false
+            local tCallback = tglCfg.Callback or function() end
+            local state = tDefault
+            local ItemLocked = false
+            
+            local TglItem = Instance.new("TextButton")
+            TglItem.Parent = TabPage
+            TglItem.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+            TglItem.Size = UDim2.new(1, 0, 0, 35)
+            TglItem.Font = Enum.Font.Gotham
+            TglItem.Text = "  " .. tName
+            TglItem.TextColor3 = Color3.fromRGB(255, 255, 255)
+            TglItem.TextSize = 13
+            TglItem.TextXAlignment = Enum.TextXAlignment.Left
+            
+            local TCorner = Instance.new("UICorner")
+            TCorner.CornerRadius = UDim.new(0, 4)
+            TCorner.Parent = TglItem
+            
+            local Indicator = Instance.new("Frame")
+            Indicator.Parent = TglItem
+            Indicator.BackgroundColor3 = state and Color3.fromRGB(255, 0, 0) or Color3.fromRGB(50, 50, 50)
+            Indicator.Position = UDim2.new(1, -30, 0.5, -8)
+            Indicator.Size = UDim2.new(0, 16, 0, 16)
+            
+            local ICorner = Instance.new("UICorner")
+            ICorner.CornerRadius = UDim.new(0, 4)
+            ICorner.Parent = Indicator
+            
+            TglItem.MouseButton1Click:Connect(function()
+                if ItemLocked then return end
+                state = not state
+                TweenService:Create(Indicator, TweenInfo.new(0.2), {BackgroundColor3 = state and Color3.fromRGB(255, 0, 0) or Color3.fromRGB(50, 50, 50)}):Play()
+                tCallback(state)
+            end)
+            
+            local ItemApi = {}
+            function ItemApi:Lock(lState)
+                ItemLocked = lState
+                TglItem.TextColor3 = lState and Color3.fromRGB(100, 100, 100) or Color3.fromRGB(255, 255, 255)
+            end
+            return ItemApi
+        end
+        
+        function Tab:AddInput(inpCfg)
+            local iName = inpCfg.Name or "Input"
+            local iCallback = inpCfg.Callback or function() end
+            local ItemLocked = false
+            
+            local InpItem = Instance.new("Frame")
+            InpItem.Parent = TabPage
+            InpItem.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+            InpItem.Size = UDim2.new(1, 0, 0, 40)
+            
+            local ICorner = Instance.new("UICorner")
+            ICorner.CornerRadius = UDim.new(0, 4)
+            ICorner.Parent = InpItem
+            
+            local ILabel = Instance.new("TextLabel")
+            ILabel.Parent = InpItem
+            ILabel.BackgroundTransparency = 1
+            ILabel.Position = UDim2.new(0, 10, 0, 0)
+            ILabel.Size = UDim2.new(0.5, 0, 1, 0)
+            ILabel.Font = Enum.Font.Gotham
+            ILabel.Text = iName
+            ILabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+            ILabel.TextSize = 13
+            ILabel.TextXAlignment = Enum.TextXAlignment.Left
+            
+            local IBox = Instance.new("TextBox")
+            IBox.Parent = InpItem
+            IBox.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+            IBox.Position = UDim2.new(0.6, 0, 0.5, -12)
+            IBox.Size = UDim2.new(0.35, 0, 0, 24)
+            IBox.Font = Enum.Font.Gotham
+            IBox.Text = ""
+            IBox.PlaceholderText = "..."
+            IBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+            IBox.TextSize = 12
+            
+            local IBCorner = Instance.new("UICorner")
+            IBCorner.CornerRadius = UDim.new(0, 4)
+            IBCorner.Parent = IBox
+            
+            IBox.FocusLost:Connect(function(enter)
+                if not ItemLocked and enter then
+                    iCallback(IBox.Text)
+                end
+            end)
+            
+            local ItemApi = {}
+            function ItemApi:Lock(lState)
+                ItemLocked = lState
+                ILabel.TextColor3 = lState and Color3.fromRGB(100, 100, 100) or Color3.fromRGB(255, 255, 255)
+                IBox.TextEditable = not lState
+            end
+            return ItemApi
+        end
+        
+        function Tab:AddDropdown(ddCfg)
+            local dName = ddCfg.Name or "Dropdown"
+            local dOpts = ddCfg.Options or {}
+            local dCallback = ddCfg.Callback or function() end
+            local ItemLocked = false
+            local dOpen = false
+            
+            local DdItem = Instance.new("Frame")
+            DdItem.Parent = TabPage
+            DdItem.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+            DdItem.Size = UDim2.new(1, 0, 0, 35)
+            DdItem.ClipsDescendants = true
+            
+            local DCorner = Instance.new("UICorner")
+            DCorner.CornerRadius = UDim.new(0, 4)
+            DCorner.Parent = DdItem
+            
+            local DdBtn = Instance.new("TextButton")
+            DdBtn.Parent = DdItem
+            DdBtn.BackgroundTransparency = 1
+            DdBtn.Size = UDim2.new(1, 0, 0, 35)
+            DdBtn.Font = Enum.Font.Gotham
+            DdBtn.Text = "  " .. dName
+            DdBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
+            DdBtn.TextSize = 13
+            DdBtn.TextXAlignment = Enum.TextXAlignment.Left
+            
+            local DdContainer = Instance.new("Frame")
+            DdContainer.Parent = DdItem
+            DdContainer.BackgroundTransparency = 1
+            DdContainer.Position = UDim2.new(0, 0, 0, 35)
+            DdContainer.Size = UDim2.new(1, 0, 1, -35)
+            
+            local DdLayout = Instance.new("UIListLayout")
+            DdLayout.Parent = DdContainer
+            DdLayout.SortOrder = Enum.SortOrder.LayoutOrder
+            
+            local function closeDd()
+                dOpen = false
+                TweenService:Create(DdItem, TweenInfo.new(0.2), {Size = UDim2.new(1, 0, 0, 35)}):Play()
+            end
+            
+            local function refreshOpts(opts)
+                for _, child in ipairs(DdContainer:GetChildren()) do
+                    if child:IsA("TextButton") then child:Destroy() end
+                end
+                for _, opt in ipairs(opts) do
+                    local optBtn = Instance.new("TextButton")
+                    optBtn.Parent = DdContainer
+                    optBtn.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+                    optBtn.Size = UDim2.new(1, 0, 0, 30)
+                    optBtn.Font = Enum.Font.Gotham
+                    optBtn.Text = opt
+                    optBtn.TextColor3 = Color3.fromRGB(200, 200, 200)
+                    optBtn.TextSize = 12
+                    
+                    optBtn.MouseButton1Click:Connect(function()
+                        dCallback(opt)
+                        DdBtn.Text = "  " .. dName .. " : " .. opt
+                        closeDd()
+                    end)
+                end
+            end
+            
+            refreshOpts(dOpts)
+            
+            DdBtn.MouseButton1Click:Connect(function()
+                if ItemLocked then return end
+                dOpen = not dOpen
+                local targetSize = dOpen and UDim2.new(1, 0, 0, 35 + (#dOpts * 30)) or UDim2.new(1, 0, 0, 35)
+                TweenService:Create(DdItem, TweenInfo.new(0.2), {Size = targetSize}):Play()
+            end)
+            
+            local ItemApi = {}
+            function ItemApi:Lock(lState)
+                ItemLocked = lState
+                DdBtn.TextColor3 = lState and Color3.fromRGB(100, 100, 100) or Color3.fromRGB(255, 255, 255)
+                if lState and dOpen then closeDd() end
+            end
+            function ItemApi:Refresh(newOpts)
+                dOpts = newOpts
+                refreshOpts(dOpts)
+                if dOpen then
+                    DdItem.Size = UDim2.new(1, 0, 0, 35 + (#dOpts * 30))
+                end
+            end
+            return ItemApi
+        end
+        
+        function Tab:Lock(state)
+            isLocked = state
+            TabBtn.TextTransparency = state and 0.5 or 0
+        end
+        
+        function Tab:Delete()
+            TabBtn:Destroy()
+            TabPage:Destroy()
+        end
+        
+        TabPage.ChildAdded:Connect(function()
+            TabPage.CanvasSize = UDim2.new(0, 0, 0, PageLayout.AbsoluteContentSize.Y + 10)
+        end)
+        
+        return Tab
+    end
+    
+    TabContainer.ChildAdded:Connect(function()
+        TabListLayout.Parent = TabContainer
+        TabContainer.CanvasSize = UDim2.new(0, 0, 0, TabListLayout.AbsoluteContentSize.Y + 10)
+    end)
+    
+    return Window
+end
+
+-- ==========================================
+-- Example Usage Below
+-- ==========================================
+
+local Window = AZTMod:CreateWindow({
+    Name = "aztvn.top",
+    HubName = "[       aztvn.top       ]",
+    UseKeySystem = false,
+    OnLoad = function()
+        warn('aztvn.load')
+    end
+})
+
+local MainTab = Window:MakeTab({Name = "Main"})
+local SettingsTab = Window:MakeTab({Name = "Settings"})
+
+MainTab:AddButton({
+    Name = "Inf Stamina [Instants]",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/aztvn/AZTScript/refs/heads/main/OpenSrc/Instant.InfStamina.lua'))()
+    end
+})
+
+MainTab:AddButton({
+    Name = "Inf Stamina [Legit PE]",
+    Callback = function()
+        local Players = game:GetService("Players")
+        local RunService = game:GetService("RunService")
+        local LocalPlayer = Players.LocalPlayer
+        local PlayerGui = LocalPlayer:WaitForChild("PlayerGui")
+
+        local NORMAL_SPEED = 16
+        local SPRINT_SPEED = 32
+        local isSprinting = false
+
+        --"Đang xử lý nút chạy gốc...")
+
+        task.spawn(function()
+            local profileGui = PlayerGui:WaitForChild("Profile", 15)
+            if not profileGui then return end
+            
+            local mainFrame = profileGui:WaitForChild("MainFrame", 10)
+            if not mainFrame then return end
+            
+            local oldRunButton = mainFrame:WaitForChild("Run", 10)
+            if oldRunButton then
+                local newRunButton = oldRunButton:Clone()
+                newRunButton.Name = "Run"
+                newRunButton.Parent = mainFrame
+                
+                oldRunButton:Destroy()
+                
+                newRunButton.Visible = true
+                
+                newRunButton.Activated:Connect(function()
+                    isSprinting = not isSprinting
+                    
+                    if isSprinting then
+                        newRunButton.Image = "rbxassetid://87368778319194"
+                        if newRunButton:FindFirstChild("Icon") then
+                            newRunButton.Icon.ImageColor3 = Color3.fromRGB(0, 0, 0)
+                        end
+                    else
+                        newRunButton.Image = "rbxassetid://121714636260707"
+                        if newRunButton:FindFirstChild("Icon") then
+                            newRunButton.Icon.ImageColor3 = Color3.fromRGB(255, 255, 255)
+                        end
+                    end
+                end)
+                
+                --"Đã thay thế và gán trigger mới vào nút thành công!")
+            end
+end)
+
+RunService.Heartbeat:Connect(function()
+    local char = LocalPlayer.Character
+    if char then
+        local hum = char:FindFirstChildOfClass("Humanoid")
+        if hum then
+            local isSpecialState = char:GetAttribute("teXe") or char:GetAttribute("tongBanCa") or char:GetAttribute("capTapHocSinh") or char:GetAttribute("IsKunai")
+            
+            if not isSpecialState then
+                if isSprinting then
+                    if hum.WalkSpeed < SPRINT_SPEED then
+                        hum.WalkSpeed = SPRINT_SPEED
+                    end
+                else
+                    if hum.WalkSpeed == SPRINT_SPEED then
+                        hum.WalkSpeed = NORMAL_SPEED
+                    end
+                end
+            end
+        end
+    end
+end)
+
+LocalPlayer.CharacterAdded:Connect(function(char)
+    isSprinting = false
+end)
+    end
+})
+MainTab:AddButton({
+    Name = "Inf Stamina [Legit Pc]",
+    Callback = function()
+ local Players = game:GetService("Players")
+local ContextActionService = game:GetService("ContextActionService")
+local RunService = game:GetService("RunService")
+local LocalPlayer = Players.LocalPlayer
+
+local NORMAL_SPEED = 16
+local SPRINT_SPEED = 32
+local isSprinting = false
+
+--"Đang thiết lập hệ thống chạy PC ẩn (Legit Bypass)...")
+
+-- 1. Bắt phím Shift bằng ContextActionService
+-- Việc này sẽ khiến gameProcessedEvent = true, làm script gốc của game bỏ qua phím Shift (không bị trừ thể lực)
+local function onSprintAction(actionName, inputState, inputObject)
+    if inputState == Enum.UserInputState.Begin then
+        isSprinting = true
+    elseif inputState == Enum.UserInputState.End or inputState == Enum.UserInputState.Cancel then
+        isSprinting = false
+    end
+    
+    -- Trả về Sink để "nuốt" sự kiện, không cho truyền xuống lệnh kích hoạt stamina của game
+    return Enum.ContextActionResult.Sink
+end
+
+-- Gán phím Shift trái và phải vào hệ thống mới
+ContextActionService:BindAction("LegitPCSprint", onSprintAction, false, Enum.KeyCode.LeftShift, Enum.KeyCode.RightShift)
+
+-- 2. Vòng lặp duy trì tốc độ chạy mượt mà
+RunService.Heartbeat:Connect(function()
+    local char = LocalPlayer.Character
+    if char then
+        local hum = char:FindFirstChildOfClass("Humanoid")
+        if hum then
+            -- Tôn trọng các trạng thái đặc biệt của game (lái xe, đang làm nhiệm vụ...)
+            local isSpecialState = char:GetAttribute("teXe") or char:GetAttribute("tongBanCa") or char:GetAttribute("capTapHocSinh") or char:GetAttribute("IsKunai")
+            
+            if not isSpecialState then
+                if isSprinting then
+                    if hum.WalkSpeed < SPRINT_SPEED then
+                        hum.WalkSpeed = SPRINT_SPEED
+                    end
+                else
+                    -- Chỉ đưa về tốc độ 16 nếu tốc độ hiện tại đang là 32 (tránh đè lệnh khi game ép tốc độ về 0)
+                    if hum.WalkSpeed == SPRINT_SPEED then
+                        hum.WalkSpeed = NORMAL_SPEED
+                    end
+                end
+            end
+        end
+    end
+end)
+
+-- 3. Đặt lại trạng thái khi nhân vật chết hoặc hồi sinh
+LocalPlayer.CharacterAdded:Connect(function()
+    isSprinting = false
+end)
+
+--"Đã kích hoạt chạy PC (ContextAction) - Không trừ thể lực!")
+
+    end
+})
