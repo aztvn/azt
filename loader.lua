@@ -54,7 +54,7 @@ return function(Data)
         },
 
         ["17541114784"] = {
-            Url = "https://raw.githubusercontent.com/aztvn/azt/refs/heads/main/script/cdvn.lua",
+            Url = "https://raw.githubusercontent.com/aztvn/azt/refs/heads/main/cdvnloader.lua",
             NameGame = "Cong Dong Viet Nam",
             BlacklistExec = {
                 "xeno",
@@ -63,7 +63,7 @@ return function(Data)
         },
 
         ["18192562963"] = {
-            Url = "https://raw.githubusercontent.com/aztvn/azt/refs/heads/main/script/cdvn.lua",
+            Url = "https://raw.githubusercontent.com/aztvn/azt/refs/heads/main/cdvnloader.lua",
             NameGame = "Cong Dong Viet Nam",
             BlacklistExec = {}
         },
